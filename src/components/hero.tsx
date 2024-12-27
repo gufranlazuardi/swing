@@ -16,10 +16,10 @@ export function Hero() {
             Great software that allows you to chat from any place at any time without any interruption
           </p>
           <div className="flex items-center justify-center gap-4">
-            <Button className="bg-yellow-400 text-black hover:bg-yellow-500">
+            <Button className="bg-yellow-400 text-black hover:bg-yellow-600">
               Getting Now
             </Button>
-            <Button variant="outline" className="text-white border-white/20">
+            <Button className="text-white bg-purple-400 hover:bg-purple-600 border-white/20">
               Learn More
             </Button>
           </div>

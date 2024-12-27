@@ -18,12 +18,10 @@ export function Integrations() {
   }, [])
 
   return (
-    <section className="py-20">
-      <div className="container">
+    <section className="py-20 max-w-screen-xl mx-auto">
         <h2 className="text-2xl text-center mb-12">
           Effortless integration with your preferred tools
         </h2>
-      </div>
       <div className="overflow-hidden">
         <div 
           ref={marqueeRef}
