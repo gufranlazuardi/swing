@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Play } from 'lucide-react'
+import Image from "next/image"
 
 export function VideoChat() {
   const [isPlaying, setIsPlaying] = useState(false)
@@ -32,10 +33,12 @@ export function VideoChat() {
           ></iframe>
         ) : (
           <>
-            <img
+            <Image
               src="https://img.youtube.com/vi/q19RtuCHt1Q/maxresdefault.jpg"
               alt="Video chat demonstration"
-              className="w-full h-full object-cover"
+              layout="fill"
+              objectFit="cover"
+              priority
             />
             <Button
               size="icon"
