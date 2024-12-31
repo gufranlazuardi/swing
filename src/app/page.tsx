@@ -6,6 +6,7 @@ import { Messaging } from '@/components/messaging'
 import { VideoChat } from '@/components/video-chat'
 import { Stats } from '@/components/stats'
 import { Footer } from '@/components/footer'
+import { PrototypeNotice } from '@/components/prototype-notice'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Messaging />
       <VideoChat />
       <Stats />
+      <PrototypeNotice/>
     </main>
   )
 }

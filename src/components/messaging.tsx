@@ -35,7 +35,7 @@ const chats: Chat[] = [
 
 export function Messaging() {
   return (
-    <section className=" max-w-screen-xl mx-auto py-20 px-[1rem] md:px-[4rem] lg:px-[4rem]">
+    <section className="max-w-screen-xl mx-auto py-20 px-[1rem] md:px-[4rem] lg:px-[4rem]">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
           <h2 className="text-3xl font-bold mb-6">
